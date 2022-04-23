@@ -1,5 +1,6 @@
 class Solution:    
     def maxArea(self, height: List[int]) -> int:
+        # brute force solution
         area = 0
         result = 0
         for i in range(len(height)):
