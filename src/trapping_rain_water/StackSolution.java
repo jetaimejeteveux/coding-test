@@ -37,7 +37,7 @@ public class StackSolution {
 
     public static void main(String[] args) {
         int[] arr = {0,2,0,3,1,0,1,3,2,1};
-        TwoPointerSolution solution = new TwoPointerSolution();
+        StackSolution solution = new StackSolution();
         int ans = solution.trap(arr);
         System.out.println(ans);
     }
